@@ -5,14 +5,11 @@ first_num = max(num)
 num.remove(first_num)
 second_num = max(num)
 
-SUM = 0
-count = 0
+count = M // (K+1) * K #가장 큰 수가 더해지는 횟수
+count += M % (K+1)
 
-while count < M:
-    for j in range(K):
-        SUM += first_num
-        count += 1
-    SUM += second_num
-    count += 1
+SUM = 0
+SUM += count * first_num
+SUM += (M-count) * second_num
 
 print(SUM)
