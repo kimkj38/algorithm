@@ -1,2 +1,4 @@
-# algorithm
-![image](https://user-images.githubusercontent.com/76815825/124412215-f9225680-dd88-11eb-8936-f065a6203ef7.png)
+# 이것이 취업을 위한 코딩테스트다
+
+![image](https://user-images.githubusercontent.com/76815825/124412261-11927100-dd89-11eb-9a0b-63481f919571.png)
+
